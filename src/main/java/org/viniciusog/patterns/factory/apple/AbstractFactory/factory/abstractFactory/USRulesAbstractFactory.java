@@ -5,7 +5,7 @@ import org.viniciusog.patterns.factory.apple.AbstractFactory.model.certificate.U
 import org.viniciusog.patterns.factory.apple.AbstractFactory.model.packing.Packing;
 import org.viniciusog.patterns.factory.apple.AbstractFactory.model.packing.USPacking;
 
-public class USRulesAbsctractFactory implements CountryRulesAbstractFactory {
+public class USRulesAbstractFactory implements CountryRulesAbstractFactory {
     @Override
     public Certificate getCertificate() {
         return new USCertificate();
