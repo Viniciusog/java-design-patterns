@@ -14,18 +14,21 @@ public class Client {
     public static void query1() {
         ConnectionPool pool = ConnectionPool.getInstance();
         Connection connection = pool.getConnection();
-        connection.query("SELECT * FROM car");
+        if (connection != null)
+            connection.query("SELECT * FROM A1");
     }
 
     public static void query2() {
         ConnectionPool pool = ConnectionPool.getInstance();
         Connection connection = pool.getConnection();
-        connection.query("SELECT * FROM customer");
+        if (connection != null)
+            connection.query("SELECT * FROM A2");
     }
 
     public static void query3() {
         ConnectionPool pool = ConnectionPool.getInstance();
         Connection connection = pool.getConnection();
-        connection.query("SELECT * FROM sales");
+        if (connection != null)
+            connection.query("SELECT * FROM A3");
     }
 }
