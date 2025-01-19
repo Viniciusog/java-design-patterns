@@ -1,4 +1,4 @@
-package org.viniciusog.patterns.creationalPatterns.builder;
+package org.viniciusog.patterns.creationalPatterns.builder.fluent;
 
 public class Client {
     public static void main(String[] args) {
