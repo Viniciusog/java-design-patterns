@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ConnectionPool {
 
-    private static Integer MAX_CONNECTIONS = 2;
+    private static final Integer MAX_CONNECTIONS = 2;
     private static List<Connection> connections = new ArrayList<>();
 
     static {
