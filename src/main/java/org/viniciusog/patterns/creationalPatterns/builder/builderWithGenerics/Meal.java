@@ -39,4 +39,15 @@ public abstract class Meal {
     public boolean isPepper() {
         return pepper;
     }
+
+    @Override
+    public String toString() {
+        return "Meal{" +
+                "toppings=" + toppings +
+                ", sauces=" + sauces +
+                ", size=" + size +
+                ", cheese=" + cheese +
+                ", pepper=" + pepper +
+                '}';
+    }
 }
