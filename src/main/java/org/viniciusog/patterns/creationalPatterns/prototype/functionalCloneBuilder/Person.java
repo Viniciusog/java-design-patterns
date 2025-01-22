@@ -1,15 +1,17 @@
 package org.viniciusog.patterns.creationalPatterns.prototype.functionalCloneBuilder;
 
-import org.viniciusog.patterns.creationalPatterns.prototype.functionalCloneBuilder.Address;
-
 public class Person implements Cloneable {
 
-    private final String name;
-    private final Address address;
+    private  String name;
+    private  Address address;
 
-    public Person(String name, Address address) {
+    private Person(String name, Address address) {
         this.name = name;
         this.address = address;
+    }
+
+    public String getName() {
+        return this.name;
     }
 
     public Address getAddress() {
@@ -30,6 +32,10 @@ public class Person implements Cloneable {
     public static class Builder {
         private String name;
         private Address address;
+
+        public Builder() {
+
+        }
 
         public Builder(String name, Address address) {
             this.name = name;
