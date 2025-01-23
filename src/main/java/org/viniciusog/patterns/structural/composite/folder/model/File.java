@@ -1,4 +1,4 @@
-package org.viniciusog.patterns.structural.composite.folder;
+package org.viniciusog.patterns.structural.composite.folder.model;
 
 public class File implements FileSystemItem {
     private String name;
