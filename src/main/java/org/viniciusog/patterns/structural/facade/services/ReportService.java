@@ -15,6 +15,7 @@ public class ReportService {
 
     public void getSummary(Card card) {
         List<Register> registers = registerService.getRegistersByCard(card);
+        if (registers == null) return;
         for (Register register : registers) {
             System.out.printf("""
                     %s

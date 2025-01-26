@@ -24,7 +24,8 @@ public class CardService {
     }
 
     public Card createNewCard(Long user, Long cardNumber) {
-        Card card = memory.put(user, new Card(user, cardNumber));
+        Card card = new Card(user, cardNumber);
+        memory.put(user, card);
         System.out.println("Creating new card: " + card);
         return card;
     }
