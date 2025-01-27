@@ -1,6 +1,6 @@
-package org.viniciusog.patterns.structural.flyweight.model;
+package org.viniciusog.patterns.structural.flyweight.musicPlayer.model;
 
-import org.viniciusog.patterns.structural.flyweight.MusicFlyweight.MusicFlyweight;
+import org.viniciusog.patterns.structural.flyweight.musicPlayer.MusicFlyweight.MusicFlyweight;
 
 public class Music {
 

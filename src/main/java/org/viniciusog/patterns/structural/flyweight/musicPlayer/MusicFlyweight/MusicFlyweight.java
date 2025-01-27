@@ -1,4 +1,4 @@
-package org.viniciusog.patterns.structural.flyweight.MusicFlyweight;
+package org.viniciusog.patterns.structural.flyweight.musicPlayer.MusicFlyweight;
 
 public class MusicFlyweight {
     private String name;

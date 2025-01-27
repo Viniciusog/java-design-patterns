@@ -1,8 +1,7 @@
-package org.viniciusog.patterns.structural.flyweight.service;
+package org.viniciusog.patterns.structural.flyweight.musicPlayer.service;
 
-import org.viniciusog.patterns.structural.flyweight.MusicFlyweight.FlyweightFactory;
-import org.viniciusog.patterns.structural.flyweight.MusicFlyweight.MusicFlyweight;
-import org.viniciusog.patterns.structural.flyweight.model.Music;
+import org.viniciusog.patterns.structural.flyweight.musicPlayer.MusicFlyweight.FlyweightFactory;
+import org.viniciusog.patterns.structural.flyweight.musicPlayer.model.Music;
 
 import java.util.Collection;
 import java.util.HashMap;

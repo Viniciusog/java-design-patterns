@@ -1,6 +1,4 @@
-package org.viniciusog.patterns.structural.flyweight.MusicFlyweight;
-
-import org.viniciusog.patterns.structural.flyweight.model.Music;
+package org.viniciusog.patterns.structural.flyweight.musicPlayer.MusicFlyweight;
 
 import java.util.HashMap;
 import java.util.Map;

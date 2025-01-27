@@ -1,9 +1,7 @@
-package org.viniciusog.patterns.structural.flyweight;
+package org.viniciusog.patterns.structural.flyweight.musicPlayer;
 
-import org.viniciusog.patterns.structural.flyweight.MusicFlyweight.FlyweightFactory;
-import org.viniciusog.patterns.structural.flyweight.MusicFlyweight.MusicFlyweight;
-import org.viniciusog.patterns.structural.flyweight.model.Music;
-import org.viniciusog.patterns.structural.flyweight.service.MusicService;
+import org.viniciusog.patterns.structural.flyweight.musicPlayer.MusicFlyweight.FlyweightFactory;
+import org.viniciusog.patterns.structural.flyweight.musicPlayer.service.MusicService;
 
 public class Client {
 
