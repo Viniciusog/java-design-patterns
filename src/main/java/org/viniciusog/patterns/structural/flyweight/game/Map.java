@@ -1,7 +1,6 @@
 package org.viniciusog.patterns.structural.flyweight.game;
 
 import org.viniciusog.patterns.structural.flyweight.game.model.Pixel;
-import org.viniciusog.patterns.structural.flyweight.game.model.PixelType;
 import org.viniciusog.patterns.structural.flyweight.game.model.PixelTypeFactory;
 
 import java.util.Random;
